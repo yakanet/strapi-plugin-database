@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-database-storage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Store your documents & media file into the database.",
   "strapi": {
     "name": "Database Storage",
@@ -8,7 +8,7 @@
     "description": "Description of database-storage plugin."
   },
   "dependencies": {
-    "strapi-provider-upload-database": "0.0.1"
+    "strapi-provider-upload-database": "0.0.2"
   },
   "scripts": {
     "test": "echo \"no tests yet\""
