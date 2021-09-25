@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-database-storage",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Store your documents & media file into the database.",
   "strapi": {
     "name": "Database Storage",
