@@ -37,7 +37,7 @@ module.exports = {
                 content,
                 mime
               });
-            file.url = [absoluteUrl ? strapi.config.server.url : '', 'database-storage', hash + ext];
+            file.url = [absoluteUrl ? strapi.config.server.url : '', 'database-storage', hash + ext].join('/');
             resolve();
           } catch (e) {
             console.error(e.message);
