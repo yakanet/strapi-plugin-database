@@ -1,0 +1,40 @@
+{
+  "name": "strapi-plugin-database-storage",
+  "version": "0.0.1",
+  "description": "Store your documents & media file into the database.",
+  "strapi": {
+    "name": "Database Storage",
+    "icon": "cloud-upload-alt",
+    "description": "Description of database-storage plugin."
+  },
+  "dependencies": {
+    "strapi-provider-upload-database": "0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yakanet/strapi-plugin-database.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yakanet/strapi-plugin-database/issues"
+  },
+  "author": {
+    "name": "Mathieu BROUTIN",
+    "email": "",
+    "url": "https://github.com/yakanet"
+  },
+  "maintainers": [
+    {
+      "name": "Mathieu BROUTIN",
+      "email": "",
+      "url": "https://github.com/yakanet"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

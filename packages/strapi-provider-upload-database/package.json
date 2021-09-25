@@ -1,0 +1,43 @@
+{
+  "name": "strapi-provider-upload-database",
+  "version": "0.0.1",
+  "description": "Database provider for strapi upload",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "keywords": [
+    "upload",
+    "database",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "name": "Mathieu BROUTIN",
+    "email": "",
+    "url": "https://github.com/yakanet"
+  },
+  "maintainers": [
+    {
+      "name": "Mathieu BROUTIN",
+      "email": "",
+      "url": "https://github.com/yakanet"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yakanet/strapi-plugin-database.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yakanet/strapi-plugin-database/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  }
+}

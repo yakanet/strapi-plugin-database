@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/:id.:ext",
+      "handler": "database-storage.get",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

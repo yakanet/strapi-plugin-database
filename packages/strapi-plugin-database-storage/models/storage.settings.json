@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strapi_documents_store",
+  "info": {
+    "name": "strapi_document_store",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": false
+    },
+    "content-type-builder": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "hash": {
+      "type": "string",
+      "unique": true
+    },
+    "content": {
+      "type": "string",
+      "columnType": "mediumblob"
+    },
+    "mime": {
+      "type": "string"
+    }
+  }
+}
