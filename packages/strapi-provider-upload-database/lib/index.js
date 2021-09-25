@@ -46,11 +46,11 @@ module.exports = {
         });
       },
       delete(file, customParams = {}) {
-        return new Promise((resolve, reject) => {
+        return new Promise(async (resolve, reject) => {
           /** @type{(import('knex').Knex)} */
           const knex = strapi.connections.default;
           try {
-            knex(tableName)
+            await knex(tableName)
               .where('hash', file.hash)
               .delete();
             resolve();
