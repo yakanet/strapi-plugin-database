@@ -8,6 +8,7 @@ const tableName = 'strapi_documents_store'
 
 module.exports = {
   init(config) {
+    const absoluteUrl = config.absoluteUrl !== undefined ? !!config.absoluteUrl : true;
     return {
       /**
        *
@@ -36,9 +37,7 @@ module.exports = {
                 content,
                 mime
               });
-            file.url = [strapi.config.server.url, 'database-storage', hash + ext].join('/');
-            //file.previewUrl = [strapi.config.server.url, 'database-storage', hash + ext].join('/');
-            //file.provider_metadata = hash;
+            file.url = [absoluteUrl ? strapi.config.server.url : '', 'database-storage', hash + ext];
             resolve();
           } catch (e) {
             console.error(e.message);
