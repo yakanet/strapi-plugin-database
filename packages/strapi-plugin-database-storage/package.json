@@ -8,7 +8,7 @@
     "description": "Description of database-storage plugin."
   },
   "dependencies": {
-    "strapi-provider-upload-database": "^0.2.0"
+    "strapi-provider-upload-database": "^0.2.1"
   },
   "scripts": {
     "test": "echo \"no tests yet\""
