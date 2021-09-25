@@ -33,7 +33,7 @@ If you want to access images uploaded using this plugin directly from a <img> ma
 
 To define this permission, on your strapi admin page, go to Settings > Users & permissions plugin > Roles > Public and check the Database Storage > get permission :
 
-![permissions](https://github.com/yakanet/strapi-plugin-database/documentation/permissions.png)
+![permissions](https://github.com/yakanet/strapi-plugin-database/blob/main/documentation/permissions.png?raw=true)
 
 
 ## Links
