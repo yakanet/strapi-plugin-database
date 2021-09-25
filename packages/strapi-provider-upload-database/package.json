@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-database",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Database provider for strapi upload",
   "scripts": {
     "test": "echo \"no tests yet\""
